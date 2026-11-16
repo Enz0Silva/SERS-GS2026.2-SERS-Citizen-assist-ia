@@ -1,0 +1,6 @@
+﻿data_utc,codigo_teste,participante_anonimo,cenario,compreensao_1_a_5,utilidade_1_a_5,comentario,ajuste_proposto_ou_realizado,status_ajuste
+2026-11-16T16:52:04+00:00,T01,P1,"Tarefa 6 — gastar menos energia sem gastar dinheiro (menu de energia, EN01 Tarifa Social)",3,5,,,Não necessário
+2026-11-16T16:52:04+00:00,T02,P1,Tarefa 7 — calculadora da economia do banho (EN02),4,4,Ajudou a ter uma noção da conta que é feita,,Não necessário
+2026-11-16T16:52:04+00:00,T03,P2,"Tarefa 8 — placa solar para quem está com a conta atrasada (no histórico do assistente aparece a orientação EN02, aberta pelo menu de energia)",5,5,,,Não necessário
+2026-11-16T16:52:04+00:00,T04,P3,Tarefa 6 — gastar menos energia sem gastar dinheiro (consulta sem registro correspondente no historico.json do assistente),5,4,Válido,,Não necessário
+2026-11-16T16:52:04+00:00,T05,P3,"Tarefa 8 — placa solar para quem está com a conta atrasada (pergunta livre; o assistente respondeu com a CO01, de corte, e não com a EN03)",5,5,Achei interessante a resposta,"Melhoria feita: a busca livre do assistente passou a procurar também nas orientações de energia, e a EN03 ganhou a palavra-chave 'vale a pena'; a mesma pergunta agora leva à EN03",Realizado

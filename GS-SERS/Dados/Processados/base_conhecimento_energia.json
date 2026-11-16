@@ -1,0 +1,169 @@
+{
+  "metadados": {
+    "projeto": "Citizen Assist AI — Global Solution 2026.2",
+    "tipo_estudo": "Cenário residencial hipotético; valores estimados",
+    "notebooks_origem": [
+      "01 — Análise do Consumo Residencial",
+      "02 — Potencial Solar e Geração Fotovoltaica"
+    ]
+  },
+  "publico": {
+    "descricao": "Residência hipotética com quatro moradores",
+    "localizacao_referencia": "São Paulo - SP, Brasil",
+    "distribuidora_referencia": "Enel Distribuição São Paulo",
+    "consumo_mensal_kwh": 150.4,
+    "consumo_anual_kwh": 1804.8,
+    "tusd_referencia_kwh": 0.47242,
+    "te_referencia_kwh": 0.31696,
+    "tarifa_referencia_kwh": 0.78938,
+    "vigencia_tarifa_referencia": "04/07/2026 a 03/07/2027",
+    "custo_energia_mensal_estimado_reais": 118.72,
+    "observacao": "Consumo doméstico simulado; TUSD + TE não representa o valor total efetivo da fatura."
+  },
+  "energia_fotovoltaica": {
+    "fonte_irradiacao": "Atlas Brasileiro de Energia Solar, INPE/LABREN, 2ª edição (2017)",
+    "ponto_grade_id": 5622,
+    "referencia_geografica": "Região central aproximada de São Paulo",
+    "ponto_grade_latitude": -23.6005,
+    "ponto_grade_longitude": -46.649,
+    "distancia_ponto_referencia_km": 5.79,
+    "irradiacao_media_diaria_anual_atlas_kwh_m2_dia": 4.658,
+    "performance_ratio": 0.8,
+    "geracao_anual_por_kwp_kwh": 1359.14,
+    "potencia_estimada_kwp": 1.328,
+    "geracao_anual_estimada_kwh": 1804.8,
+    "custo_inicial_reais": {
+      "estimativa_min": 3253.35,
+      "estimativa_max": 3771.23,
+      "preco_wp_min": 2.45,
+      "preco_wp_max": 2.84,
+      "retorno_simples_anos_indicativo": [
+        2.3,
+        2.6
+      ],
+      "valor_maximo_compensado_com_tarifa_social_reais_ano": 666.87,
+      "observacao": "Estimativa de mercado, não orçamento. Sistemas pequenos costumam custar mais por Wp. Retorno simples não inclui custo de disponibilidade, tributos, uso da rede (Lei 14.300/2022), manutenção e troca do inversor.",
+      "fontes": [
+        "Radar Solfácil 1T2026 (Cenário Energia, 09/06/2026)",
+        "Greener, Estudo Estratégico Geração Distribuída 2025"
+      ]
+    },
+    "limitacoes": [
+      "Dados climatológicos históricos; não são medição do imóvel",
+      "Localização representativa, sem avaliação de telhado, orientação e sombreamento",
+      "Performance Ratio 0,80 é hipótese, não medição de instalação",
+      "Geração estimada não representa economia igual na fatura",
+      "Valor do investimento e retorno financeiro não determinados por ausência de orçamento",
+      "Dimensionamento energético preliminar; exige análise técnica"
+    ]
+  },
+  "eficiencia_energetica": {
+    "equipamento": "Chuveiro elétrico",
+    "potencia_kw": 5.5,
+    "tempo_original_total_minutos_dia": 30.0,
+    "tempo_reduzido_total_minutos_dia": 24.0,
+    "reducao_percentual": 20.0,
+    "consumo_original_chuveiro_kwh_mes": 82.5,
+    "consumo_reduzido_chuveiro_kwh_mes": 66.0,
+    "economia_mensal_kwh": 16.5,
+    "economia_anual_kwh": 198.0,
+    "economia_financeira_mensal_reais": 13.02,
+    "economia_financeira_anual_reais": 156.3,
+    "consumo_residencial_apos_mensal_kwh": 133.9,
+    "procedimento_pratico": [
+      "Preparar os itens de banho antes de ligar o chuveiro",
+      "Acompanhar o tempo de uso e estabelecer uma meta gradual",
+      "Evitar água ligada sem necessidade, respeitando segurança e conforto",
+      "Acompanhar o tempo total diário e comparar com a referência"
+    ],
+    "limitacoes": [
+      "Redução de 20% é cenário hipotético, depende de mudança de hábitos",
+      "30 minutos diários são totais da residência, não por morador",
+      "Cálculo mantém a potência do chuveiro constante",
+      "Valor em reais utiliza tarifa de referência, sem garantia de economia final",
+      "A medida não envolve abrir o equipamento ou alterar a instalação elétrica"
+    ]
+  },
+  "dimensionamento_combinado": {
+    "potencia_original_kwp": 1.328,
+    "potencia_apos_eficiencia_kwp": 1.182,
+    "reducao_potencia_kwp": 0.146,
+    "reducao_percentual": 10.97,
+    "observacao": "Comparação teórica anual, não especificação de equipamento"
+  },
+  "comparacao": {
+    "fotovoltaica": {
+      "efeito_energetico": "Energia gerada por fonte renovável",
+      "custo": "Estimativa de R$ 3,253 a R$ 3,771 (piso de mercado, não orçamento)",
+      "viabilidade": "Depende de telhado, sombreamento, instalação e conexão à rede",
+      "impacto_ambiental": "Fonte renovável na geração; fabricar, transportar e descartar equipamentos também tem impactos"
+    },
+    "eficiencia": {
+      "efeito_energetico": "Energia que deixa de ser consumida",
+      "custo": "Sem aquisição de novo equipamento no cenário simulado",
+      "viabilidade": "Depende de adesão dos moradores à redução do uso",
+      "impacto_ambiental": "Menor demanda de eletricidade; efeitos ambientais dependem da matriz e do fornecimento"
+    },
+    "observacao": "Geração e economia são grandezas energéticas comparáveis em kWh, mas não têm o mesmo significado operacional ou financeiro.",
+    "tarifa_social": {
+      "efeito_energetico": "Nenhum: é desconto no preço, não muda o consumo",
+      "custo": "Sem investimento",
+      "viabilidade": "Depende do CadÚnico atualizado e da conta no nome de alguém da família",
+      "impacto_ambiental": "Neutro"
+    }
+  },
+  "referencias": {
+    "ANEEL": "https://dadosabertos.aneel.gov.br/",
+    "EPE": "https://www.epe.gov.br/pt/publicacoes-dados-abertos/dados-abertos/dados-do-consumo-mensal-de-energia-eletrica",
+    "INPE_LABREN": "https://labren.ccst.inpe.br/atlas_2017.html",
+    "INPE_tabela_SP": "https://labren.ccst.inpe.br/atlas2_tables/SP_inc-en.html",
+    "ANEEL_Tarifa_Social": "https://www.gov.br/aneel/pt-br/assuntos/tarifas/tarifa-social",
+    "MME_Luz_do_Povo": "https://www.gov.br/mme/pt-br/luzdopovo",
+    "MCTI_fatores_emissao": "https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/sirene",
+    "Preco_Wp_Solfacil_1T2026": "https://cenarioenergia.com.br/2026/06/09/preco-do-watt-pico-residencial-recua-7-em-um-ano-e-abre-janela-de-oportunidade-na-mmgd/",
+    "Preco_Wp_Greener_2025": "https://olhardigital.com.br/curiosidades/?p=10663"
+  },
+  "limitacoes_gerais": [
+    "Não há dados de fatura individual, telhado real ou orçamento fotovoltaico: custos são estimativas de mercado",
+    "Emissões evitadas calculadas com o fator médio do SIN; ciclo de vida dos equipamentos não foi quantificado",
+    "A validação com usuários precisa ocorrer antes de afirmar utilidade comprovada",
+    "Elegibilidade à Tarifa Social e ao Desconto Social não é confirmada pelo assistente"
+  ],
+  "publico_baixa_renda": {
+    "descricao": "Família de baixa renda com a conta de luz atrasada (público do Citizen Assist AI), com o mesmo perfil de consumo da residência hipotética",
+    "prioridade_recomendada": [
+      "1. Conferir o direito à Tarifa Social ou ao Desconto Social (sem custo)",
+      "2. Pedir o parcelamento da conta atrasada à distribuidora",
+      "3. Reduzir o tempo de banho (sem custo)",
+      "4. Energia solar só depois de quitar a dívida e com orçamento real"
+    ],
+    "tarifa_social": {
+      "regra": "Primeiros 80 kWh do mês sem cobrança de energia; acima disso, tarifa normal",
+      "economia_estimada_mensal_reais": 63.15,
+      "economia_estimada_anual_reais": 757.8,
+      "fonte": "https://www.gov.br/aneel/pt-br/assuntos/tarifas/tarifa-social"
+    },
+    "desconto_social": {
+      "regra": "Isenção da CDE até 120 kWh/mês, cerca de 11,8% da tarifa",
+      "economia_estimada_mensal_reais": 11.18,
+      "fonte": "https://www.gov.br/mme/pt-br/luzdopovo"
+    },
+    "limitacoes": [
+      "Valores sem tributos (ICMS, iluminação pública) e sem bandeiras",
+      "Elegibilidade depende do CadÚnico e da renda; o assistente não confirma direitos",
+      "Interação entre Tarifa Social e geração solar não analisada"
+    ]
+  },
+  "impacto_ambiental": {
+    "fator_emissao_sin_tco2_mwh": 0.0461,
+    "faixa_mensal_2025_tco2_mwh": [
+      0.0215,
+      0.0778
+    ],
+    "co2_evitado_solar_kg_ano": 83.2,
+    "co2_evitado_chuveiro_kg_ano": 9.1,
+    "co2_evitado_tarifa_social_kg_ano": 0,
+    "leitura": "A matriz elétrica brasileira já é majoritariamente renovável, então o CO2 evitado por kWh é pequeno; fabricação e descarte dos painéis não entram nesta conta.",
+    "fonte": "MCTI — fatores de emissão de CO2 do SIN: https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/sirene"
+  }
+}

@@ -1,0 +1,7 @@
+﻿equipamento,potencia_w,quantidade,horas_dia,dias_mes,fator_uso,consumo_direto_kwh_mes,observacao,consumo_kwh
+Geladeira,,1,,30,1.0,28.0,Premissa provisória; preferir consumo mensal da etiqueta.,28.0
+Chuveiro elétrico,5500.0,1,0.5,30,1.0,,Tempo diário total estimado para a residência.,82.5
+Televisão,100.0,1,5.0,30,1.0,,Potência e uso hipotéticos.,15.0
+Lâmpadas LED,9.0,6,5.0,30,1.0,,Seis lâmpadas utilizadas cinco horas por dia.,8.1
+Notebook,60.0,1,6.0,30,1.0,,Potência e uso hipotéticos.,10.8
+Máquina de lavar,500.0,1,1.0,12,1.0,,Doze ciclos mensais de uma hora como aproximação.,6.0

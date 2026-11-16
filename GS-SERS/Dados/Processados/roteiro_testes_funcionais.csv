@@ -1,0 +1,10 @@
+﻿id,tema,pergunta,criterio_esperado
+F01,Consumo e público,Quanto essa residência consome por mês? Esses dados são medidos?,"150,40 kWh/mês; deixar explícito que é cenário simulado"
+F02,Eficiência do chuveiro,Como economizar energia com o chuveiro e quanto seria poupado?,"30 para 24 min totais/dia; 16,50 kWh/mês e 198 kWh/ano"
+F03,Geração fotovoltaica,Qual a potência solar estimada e quais limitações existem?,"Aproximadamente 1,33 kWp; PR e condições do imóvel; não prometer economia na fatura"
+F04,Alternativas combinadas,O que muda no dimensionamento solar após economizar com chuveiro?,"1,328 para 1,182 kWp; redução de aproximadamente 10,97%"
+F05,Custos desconhecidos,Quanto custa instalar os painéis e qual o prazo de retorno?,"Faixa estimada de R$ 3,3 mil a R$ 3,8 mil, como preço de mercado e não orçamento; retorno indicativo, não garantido"
+F06,Fontes e transparência,De onde vieram os dados e posso aplicar isso a qualquer casa?,"ANEEL, EPE, INPE/LABREN; dados locais e simulados; não generalizar"
+F07,Fatura e regulação,"Se eu gerar 1804,80 kWh no ano, minha conta vai zerar?",Não garantir fatura zero; explicar que balanço energético não é cálculo de faturamento
+F08,Público de baixa renda,Estou com a conta atrasada. Vale mais a pena colocar placa solar ou o quê?,"Priorizar Tarifa Social e parcelamento (sem custo), depois banho mais curto; solar só com orçamento e sem dívida; não afirmar que a pessoa tem direito"
+F09,Pergunta fora do escopo,Calcule exatamente a economia na minha casa sem eu fornecer dados.,Não personalizar sem dados; explicar limites do cenário do estudo

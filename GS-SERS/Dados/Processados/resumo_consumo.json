@@ -1,0 +1,11 @@
+{
+    "localidade": "São Paulo - SP",
+    "distribuidora": "Enel Distribuição São Paulo",
+    "moradores": 4,
+    "consumo_estimado_kwh_mes": 150.4,
+    "origem_perfil": "Simulado",
+    "data_execucao": "2026-11-13T02:14:23",
+    "tarifa_referencia_kwh": 0.78938,
+    "custo_estimado_mensal": 118.72,
+    "observacao": "Estimativa baseada em premissas de potência e utilização; não representa medição real."
+}

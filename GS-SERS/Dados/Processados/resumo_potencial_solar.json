@@ -1,0 +1,40 @@
+{
+    "localidade": "São Paulo - SP, Brasil",
+    "fonte_dados": "Atlas Brasileiro de Energia Solar - INPE/LABREN",
+    "edicao_atlas": "2ª edição, 2017",
+    "ponto_referencia": {
+        "id": 5622,
+        "latitude": -23.6005,
+        "longitude": -46.649,
+        "distancia_referencia_km": 5.79
+    },
+    "consumo_residencial": {
+        "moradores": 4,
+        "consumo_mensal_kwh": 150.4,
+        "consumo_anual_kwh": 1804.8
+    },
+    "parametros_fotovoltaicos": {
+        "performance_ratio_referencia": 0.8,
+        "potencia_referencia_kwp": 1.0,
+        "potencia_estimada_kwp": 1.328,
+        "geracao_anual_por_kwp_kwh": 1359.14
+    },
+    "sensibilidade_performance_ratio": [
+        {
+            "performance_ratio": 0.75,
+            "geracao_anual_1kwp_kwh": 1274.19,
+            "potencia_estimada_kwp": 1.416
+        },
+        {
+            "performance_ratio": 0.8,
+            "geracao_anual_1kwp_kwh": 1359.14,
+            "potencia_estimada_kwp": 1.328
+        },
+        {
+            "performance_ratio": 0.85,
+            "geracao_anual_1kwp_kwh": 1444.09,
+            "potencia_estimada_kwp": 1.25
+        }
+    ],
+    "limitacao": "Estimativa preliminar baseada em médias climatológicas e premissas simplificadas. Não representa garantia de geração, economia financeira ou projeto executivo."
+}

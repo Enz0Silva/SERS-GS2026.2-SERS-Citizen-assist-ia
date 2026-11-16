@@ -1,0 +1,21 @@
+FIAP — GLOBAL SOLUTION 2026.2
+Projeto: Citizen Assist AI
+Disciplina: Soluções em Energias Renováveis e Sustentáveis
+
+========================================
+INTEGRANTES
+========================================
+
+Enzo Ricardo Silva — RM 571333
+Eric Hernandes Penhalbel — RM 570237
+Matheus Borges Soares — RM 574085
+
+========================================
+LINKS DO PROJETO
+========================================
+
+Repositório no GitHub: [COLAR O LINK DO REPOSITÓRIO GS-SERS]
+Vídeo no YouTube (não listado, até 3 min): [COLAR O LINK]
+
+Integração com o assistente: opção "Orientações de energia" do repositório
+citizen-assist-ai (arquivos energia.py, data/energia.json e teste_energia.py).
